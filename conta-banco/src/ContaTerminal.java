@@ -37,6 +37,7 @@ public class ContaTerminal {
             System.out.print("Por favor inserir Saldo da Conta: ");
             saldoConta = scanner.nextDouble();
             System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------");
+            scanner.close();
             
             System.out.printf("Olá " + nomeClienteConta.concat(" " + sobrenomeClienteConta) + ", obrigado por criar uma conta em nosso banco, sua agência é " + agenciaConta + ", conta " + numeroConta + " e seu saldo R$ %.2f já está disponível para saque.", saldoConta);
             System.out.println("");
